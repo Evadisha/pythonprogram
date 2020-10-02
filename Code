@@ -1,0 +1,7 @@
+h=0
+print("Enter the elements:")
+s=map(int,input().split())
+for i in s:
+  if i>h:
+    h=i
+print("The greatest Number is: ",h)    
